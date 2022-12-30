@@ -1,0 +1,96 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap'); */
+
+html,
+body {
+    height: 100%;
+    background-image: url('/image/back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* background-color: #998bbe; */
+    display: grid;
+    place-items: center;
+
+}
+
+.container{
+    background-color: #998bbe;
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding-top: 100px;
+}
+
+.container h3{
+    font-size: 35px;
+    font-weight: 500;
+    position: relative;
+    top: -70px;
+    padding-left: 40px;
+    font-family: 'Smooch', cursive;
+    
+}
+.cname{
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 30px;
+    text-decoration: underline;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.btn{
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: 700;
+    font-size: large;
+    position: relative;
+    top: 30px;
+    left: 300px;
+    background-color: #00ABB3;
+}
+.container input{
+    height:30px;
+    width: 200px;
+    border-radius: 15px;
+    position: relative;
+    left: 40px;
+}
+
+/* .card {
+    background-color: #ffffff;
+    border-radius: 50px;
+    color: #6f707d;
+    font-family: 'Marcellus', serif;
+}
+
+#heading {
+    font-size: 55px;
+    color: #2b304d;
+}
+
+.temp {
+    place-items: center;
+}
+
+.temp-details>p>span,
+.grey {
+    color: #a3acc1;
+    font-size: 12px;
+}
+
+.fa {
+    color: #a5a5b1
+}
+
+*:focus {
+    outline: none;
+} */

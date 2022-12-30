@@ -1,0 +1,32 @@
+body {
+    height: 100%;
+    background-image: url('/image/weather.jpg');
+    display: grid;
+    place-items: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    overflow: hidden;
+}
+.top {
+    width: 600px;
+    height: 350px;
+    border-radius: 30px;
+    text-align: center;
+    border: 1.5px solid black;
+    font-size: 16px;
+    background-color: rgb(146, 231, 247);
+    z-index: 4;
+    color:rgb(33, 39, 34);
+    text-decoration:dashed;
+    text-decoration-color: black;
+    margin-top: 100px;
+    font-family: 'Rubik 80s Fade', cursive;
+}
+
+.btn_h{
+    border: none;
+    background-color: rgb(146, 231, 247);
+    position:relative;
+    left: 130px;
+
+}
