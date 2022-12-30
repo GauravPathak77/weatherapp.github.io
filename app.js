@@ -9,7 +9,7 @@ require("dotenv").config();
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
 app.get("/",function(req,res){
-  res.sendFile(__dirname + "/index.html");
+  res.render("index",{choice:true});
 });
 
 app.post("/",function(req,res){
@@ -26,7 +26,7 @@ https.get(url,function(response){
     const des = weatherData.weather[0].description;
     const icon = weatherData.weather[0].icon;
     const ImageURL =  "http://openweathermap.org/img/wn/" + icon + "@2x.png";
-    res.render("index", {Des: des, Query: query, Temp: temp ,ImageUrl: ImageURL });
+    res.render("index", {choice: false, Des: des, Query: query, Temp: temp ,ImageUrl: ImageURL });
   });
 });
 });
