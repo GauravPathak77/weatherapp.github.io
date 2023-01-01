@@ -1,3 +1,3 @@
 # weatherapp
 
-http://weatherapp-seven-sooty.vercel.app/
+https://weathercalc-fs5y.onrender.com
