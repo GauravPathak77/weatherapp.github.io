@@ -19,8 +19,8 @@ HTML | CSS | JavaScript | Nodejs | Expressjs| API | Git
 
 ![App Screenshot](./public/images/output1.png)
 
-![App Screenshot](./public/images/output2.png)
 
+![App Screenshot](./public/images/output2.png)
 
 ## Authors
 
