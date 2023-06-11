@@ -17,10 +17,10 @@ HTML | CSS | JavaScript | Nodejs | Expressjs| API | Git
 
 ## Screenshots
 
-![App Screenshot](./public/images/output1.png)
+![App Screenshot](./public/image/output1.png)
 
 
-![App Screenshot](./public/images/output2.png)
+![App Screenshot](./public/image/output2.png)
 
 ## Authors
 
